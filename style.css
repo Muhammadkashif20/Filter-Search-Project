@@ -1,0 +1,53 @@
+body{
+    background-color: #e9f1fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Box{
+    width: 40rem;
+    height: 9vh;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(237, 235, 235);
+    position: relative;
+}
+#serach-Inp{
+    width: 40rem;
+    height: 7vh;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1.5px solid rgb(226, 225, 225);
+    border-radius: 3px;
+    outline: none;
+}
+::placeholder{
+    color: rgb(199, 199, 199);
+    padding-left: .5rem;
+}
+img{
+    border-radius: 5rem;
+    width: 2rem;
+    height: 7vh;
+    position: absolute;
+    left: 1.5rem;
+    top: .4rem;
+
+}
+span{
+    position: absolute;
+    left: 4.5rem;
+    top: 1rem;
+}
+button{
+    width: 6rem;
+    height: 5vh;
+    background-color: #3e9fee;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    right: 1.5rem;
+    top: .8rem;
+}
+button:hover{
+    cursor: pointer;
+}
